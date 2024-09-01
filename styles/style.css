@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* =======================PLANTILLA VALORES POR DEFECTO ==========================================
+    (GENERADO POR INTELIGENCIA ARTIFICIAL)
+
+/* Estilos de reset básicos */
+
+/* Elimina márgenes y rellenos predeterminados de todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el elemento html y body */
+html,
+body {
+  font-family: sans-serif; /* Fuente por defecto */
+  line-height: 1.5; /* Altura de línea por defecto */
+  color: #000; /* Color del texto por defecto */
+  background-color: #fff; /* Color de fondo por defecto */
+}
+
+/* Estilos para encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold; /* Negrita por defecto */
+  margin-bottom: 0.5em; /* Espacio debajo del encabezado */
+  margin-top: 0.5em; /* Espacio arriba del encabezado */
+}
+
+/* Estilos para párrafos */
+p {
+  margin-bottom: 1em; /* Espacio debajo del párrafo */
+}
+
+/* Estilos para listas ordenadas y desordenadas */
+ul,
+ol {
+  margin-bottom: 1em; /* Espacio debajo de las listas */
+  padding-left: 2em; /* Espacio a la izquierda de las listas */
+}
+
+/* Estilos para enlaces */
+a {
+  color: blue; /* Color de enlace por defecto */
+  text-decoration: underline; /* Subrayado por defecto */
+}
+
+/* Estilos para botones */
+button {
+  font-family: inherit; /* Hereda la fuente del elemento padre */
+  font-size: inherit; /* Hereda el tamaño de la fuente del elemento padre */
+  cursor: pointer; /* Muestra el cursor de puntero */
+}
+
+/* Estilos para tablas */
+table {
+  border-collapse: collapse; /* Colapsar bordes de tabla */
+  width: 100%; /* Ancho de tabla por defecto */
+}
+
+th,
+td {
+  border: 1px solid #000; /* Bordes de las celdas */
+  padding: 0.5em; /* Espacio dentro de las celdas */
+  text-align: left; /* Alineación de texto a la izquierda */
+}
+
+/* Estilos para formularios */
+input,
+select,
+textarea {
+  font-family: inherit; /* Hereda la fuente del elemento padre */
+  font-size: inherit; /* Hereda el tamaño de la fuente del elemento padre */
+}
+
+textarea {
+  resize: vertical; /* Permite cambiar el tamaño verticalmente */
+}
+
+/* Estilos para imágenes */
+img {
+  max-width: 100%; /* Limita el ancho máximo de las imágenes */
+  height: auto; /* Mantiene la relación de aspecto */
+}
+
+/*=======================FIN DE PLANTILLA===============================*/
+
+html {
+  background: linear-gradient(100deg, #5bb1c2, #0078c8);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(100deg, #64c8dc, #0078c8);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  box-shadow: inset 2px 5px 20px rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: 2rem 1rem 0 1rem;
+  padding: 10px;
+}
+
+.window-header img {
+  width: 8vw;
+  height: 8vh;
+  margin-right: 5px;
+}
+
+.window {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #c0c0c0d0;
+  padding: 10px;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  position: relative;
+}
+
+.window-header {
+  background: linear-gradient(to bottom, #e4e4e4, #ccc);
+  padding: 8px;
+  border-bottom: 2px solid #a9a9a9;
+  color: #333;
+  font-weight: bold;
+  border-radius: 3px 3px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.window-header .window-title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.window-content {
+  padding: 15px;
+  color: #333;
+}
+
+.window-footer {
+  padding: 5px;
+  text-align: right;
+  background-color: #e4e4e4;
+  border-top: 1px solid #a9a9a9;
+  border-radius: 0 0 3px 3px;
+}
+
+.window-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.window-buttons button {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: #0078d7;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.window-buttons button:hover {
+  background-color: #005a9e;
+}
+
+button {
+  width: 8em;
+  height: 8rem;
+  margin: 10px;
+}
+
+.input-numbers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+}
+
+form {
+  margin: 2rem;
+}
+
+#result-input {
+  width: 70vw;
+  height: 7vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
